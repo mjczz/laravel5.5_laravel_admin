@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "6ae27599658b4dae9392df9851a923c2",
+    "content-hash": "f82c77371b7c5db49d759edd612509ed",
     "packages": [
         {
             "name": "dnoegel/php-xdg-base-dir",
@@ -867,6 +867,64 @@
             ],
             "description": "Highlight PHP code in terminal",
             "time": "2018-09-29T18:48:56+00:00"
+        },
+        {
+            "name": "jxlwqq/composer-viewer",
+            "version": "1.0.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/laravel-admin-extensions/composer-viewer.git",
+                "reference": "e6d0075c196e7edd96c25f64c26ea2a9edf1fab9"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/laravel-admin-extensions/composer-viewer/zipball/e6d0075c196e7edd96c25f64c26ea2a9edf1fab9",
+                "reference": "e6d0075c196e7edd96c25f64c26ea2a9edf1fab9",
+                "shasum": "",
+                "mirrors": [
+                    {
+                        "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
+                        "preferred": true
+                    }
+                ]
+            },
+            "require": {
+                "encore/laravel-admin": "~1.6",
+                "php": ">=7.0.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "~6.0"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "Jxlwqq\\ComposerViewer\\ComposerViewerServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Jxlwqq\\ComposerViewer\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "jxlwqq",
+                    "email": "jxlwqq@gmail.com"
+                }
+            ],
+            "description": "Composer Viewer for Laravel-admin",
+            "homepage": "https://github.com/jxlwqq/composer-viewer",
+            "keywords": [
+                "extension",
+                "laravel-admin"
+            ],
+            "time": "2018-10-23T14:45:10+00:00"
         },
         {
             "name": "jxlwqq/id-validator",
@@ -4603,6 +4661,64 @@
                 "environment"
             ],
             "time": "2019-09-10T21:37:39+00:00"
+        },
+        {
+            "name": "yisonli/wxmenu",
+            "version": "1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/yisonli/wxmenu.git",
+                "reference": "b7484ba2ebf8d256336c1e2de38e40d1ce3fab7b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/yisonli/wxmenu/zipball/b7484ba2ebf8d256336c1e2de38e40d1ce3fab7b",
+                "reference": "b7484ba2ebf8d256336c1e2de38e40d1ce3fab7b",
+                "shasum": "",
+                "mirrors": [
+                    {
+                        "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
+                        "preferred": true
+                    }
+                ]
+            },
+            "require": {
+                "encore/laravel-admin": "~1.6",
+                "php": ">=7.0.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "~6.0"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "Yisonli\\WXMenu\\WXMenuServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Yisonli\\WXMenu\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "yisonli",
+                    "email": "yisonli@vip.qq.com"
+                }
+            ],
+            "description": "An editor for wechat menu.",
+            "homepage": "https://github.com/yisonli/wxmenu",
+            "keywords": [
+                "extension",
+                "laravel-admin"
+            ],
+            "time": "2019-09-04T07:34:02+00:00"
         }
     ],
     "packages-dev": [
