@@ -2,7 +2,7 @@
 
 namespace App\Providers;
 
-use Encore\Admin\Config\Config;
+use App\Services\Config\GlobalConfigService;
 use Illuminate\Support\ServiceProvider;
 
 class AppServiceProvider extends ServiceProvider
@@ -15,7 +15,7 @@ class AppServiceProvider extends ServiceProvider
     public function boot()
     {
         //
-        Config::load();
+        GlobalConfigService::loadAllConfig();
     }
 
     /**
