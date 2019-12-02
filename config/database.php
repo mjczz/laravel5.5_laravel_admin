@@ -52,6 +52,15 @@ return [
             'prefix' => '',
             'strict' => true,
             'engine' => null,
+            'dump' => [
+                // 将docker容器中的mysqldump复制到centos宿主机
+                // docker container cp laradock_mysql_1:/usr/bin/mysql/mysqldupm /var/www/laravel5.5_laravel_admin
+                'dump_binary_path' => '/var/www/laravel5.5_laravel_admin', // only the path, so without `mysqldump` or `pg_dump`
+                'use_single_transaction',
+                'timeout' => 60 * 5, // 5 minute timeout
+                //'exclude_tables' => ['table1', 'table2'],
+                //'add_extra_option' => '--optionname=optionvalue',
+            ]
         ],
 
         'pgsql' => [

@@ -8,8 +8,8 @@
         "php": ">=7.0.0",
         "encore/laravel-admin": "^1.7",
         "fideloper/proxy": "~4.0",
+        "guzzlehttp/guzzle": "^6.4",
         "jxlwqq/composer-viewer": "^1.0",
-        "laravel-admin-ext/backup": "^1.0",
         "laravel-admin-ext/china-distpicker": "^1.4",
         "laravel-admin-ext/config": "^1.0",
         "laravel-admin-ext/data-dictionary": "^1.0",
@@ -22,6 +22,7 @@
         "laravel-admin-ext/scheduling": "^1.0",
         "laravel/framework": "^5.6",
         "laravel/tinker": "~1.0",
+        "spatie/laravel-backup": "^6.7",
         "yisonli/wxmenu": "^1.0"
     },
     "require-dev": {
